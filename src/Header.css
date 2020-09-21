@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    background-color: white
+    
+}
+
+.header__titleleft{
+    display: flex;
+    align-items: center;
+    flex:1;
+    max-width: fit-content;
+    padding: 10px;
+    height:30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    
+    
+}
+
+.header__titleright{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.header__titlelefttext > h1{
+    font-size: 100px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.header__titlelefttext > p {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.header__titlerighttext p {
+    font-size:50px;
+    font-weight:200;
+    text-decoration: none;
+}

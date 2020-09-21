@@ -1,0 +1,14 @@
+.section{
+    display: flex;
+    align-items: center;
+}
+
+.section > img {
+    display: flex;
+    width: 50x;
+    
+    align-items: center;
+    margin: auto;
+    object-fit: contain;
+    
+}
