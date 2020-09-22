@@ -3,12 +3,7 @@
     align-items: center;
 }
 
-.section > img {
-    display: flex;
-    width: 50x;
-    
-    align-items: center;
-    margin: auto;
+.section__img {
+    width : 1000px;
     object-fit: contain;
-    
 }
