@@ -5,9 +5,12 @@
 
 }
 
+
+
 .contact__info {
     margin-left: 20px;
-    border: 1px solid lightgreen
+    border: 1px solid lightgreen;
+    margin-top: 400px;
 }
 
 
@@ -41,6 +44,8 @@
 .contact__mobile > p {
     margin-left: 40px;
 }
+
+
 
 
 

@@ -20,16 +20,16 @@ function Works() {
             <div className = "works__images">
                 <p>Clones</p>
                     <ExternalLink href = "https://fir-aa8ca.web.app/">
-                        <img  src= {img1} alt = "Amazon-Logo"/>
+                        <img style = {{width : "200px", marginRight: "50px",marginBottom:"50px"}} src= {img1} alt = "Amazon-Logo"/>
                     </ExternalLink>
                     <ExternalLink href = "https://github.com/nison79/insta-app">
-                        <img src= {img2} alt = "InstagramLogo"/>
+                        <img style = {{width : "200px", marginRight: "50px",marginBottom:"50px"}} src= {img2} alt = "InstagramLogo"/>
                     </ExternalLink>
                     <ExternalLink href = "https://you-tube--clone.web.app/">
-                        <img src= {img3} alt = "Youtube-Logo"/>
+                        <img style = {{width : "200px", marginRight: "50px",marginBottom:"50px"}} src= {img3} alt = "Youtube-Logo"/>
                     </ExternalLink>
                     <ExternalLink href = "https://github.com/nison79/airbnb-clone">
-                        <img src= {img4} alt = "Airbnb-Logo"/>
+                        <img style = {{width : "200px", marginRight: "50px",marginBottom:"50px"}} src= {img4} alt = "Airbnb-Logo"/>
                     </ExternalLink>
                 
             </div>

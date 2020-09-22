@@ -7,7 +7,7 @@ function LeftHeader() {
         <div className = "leftheader">
                     <div className = "leftheader__text">
                 <h1>George Nikoglou</h1>
-                <h2>Works//</h2>
+                <h2>Contact</h2>
                 <Link to='/' style = {{color:'lightgreen'}}>
                 <h2 style = {{cursor :"pointer"}}>//Back</h2>
                 </Link>

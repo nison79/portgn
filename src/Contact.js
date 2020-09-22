@@ -18,9 +18,9 @@ function Contact() {
     return (
         <div className = "contact">
         
-                <LeftHeader/>
+                <LeftHeader className = "contact__leftheader"/>
                 <div className = "contact__info">
-                        <h2>Contact && Social </h2>
+                        
                             <div className ="contact__address">
                                 <LocationCityIcon/>
                                 <p >P.Dimitriou 20
@@ -37,16 +37,16 @@ function Contact() {
                         </div>
                     <div className = "contact__social">
                             <ExternalLink href = "https://www.facebook.com/gnikoglou/">
-                                <img style= {{width : "100px",marginRight: "20px"}} src = {facebookimg} alt ="facebookimg" />
+                                <img style= {{width : "100px",marginRight: "50px", marginTop:"100px"}} src = {facebookimg} alt ="facebookimg" />
                             </ExternalLink>
                             <ExternalLink href = "https://www.instagram.com/georgenikoglou/">
-                                <img style= {{width : "100px",marginRight: "20px"}} src = {instagramimg} alt ="instagramimg" />
+                                <img style= {{width : "100px",marginRight: "50px"}} src = {instagramimg} alt ="instagramimg" />
                             </ExternalLink>
                             <ExternalLink href = "https://www.linkedin.com/in/george-nikoglou-54b24532/">
-                                <img style= {{width : "100px",marginRight: "20px"}} src = {linkedimg} alt ="linkedimg" />
+                                <img style= {{width : "100px",marginRight: "50px"}} src = {linkedimg} alt ="linkedimg" />
                             </ExternalLink>
                             <ExternalLink href = "https://github.com/nison79">
-                                <img style= {{width : "100px",marginRight: "20px"}} src = {githubimg} alt ="githubimg" />
+                                <img style= {{width : "100px",marginRight: "50px"}} src = {githubimg} alt ="githubimg" />
                             </ExternalLink>
                     </div>
                     
